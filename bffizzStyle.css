@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    background-color:white;
+}
+.navBar{
+  margin: auto;
+}
+.icon{
+    width: 100%;
+    float: left;
+    height: 70px;
+    background-color: #0a0b27;
+}
+.logo{
+    padding-left: 25px;
+    float: left;
+    padding-top: 25px;
+}
+img{
+    height: 25px;
+}
+.menu{
+    width: 800px;
+    float: left;
+    height: 70px;
+}
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 50px;
+}
+ul li{
+    list-style: none;
+    
+    margin-top: 30px;
+    padding-left: 80px;
+    font-size: 14px;
+    vertical-align: baseline;
+}
+ul li a{
+    text-decoration: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-top: auto;
+    margin-left: 4px;   
+}
+ul li a:hover{
+    color: red;
+}
+.row
+{
+    width: 100%;
+    background-color: green;
+    height: 800px;
+    margin-top: -5px;
+    
+}
+.row  .rowleft .leaveimg img{
+    height: 500px;
+    width: 150px;
+    margin-top: 150px;
+    margin-left: 260px;
+    transform: rotate(1.63681rad); 
+}
+.row .rowleft .imgText h1{
+    
+    font-weight: 800px;
+    font-size: 75px;
+    font-family: "EksellDisplayWeb-Small";
+    letter-spacing: 3px;
+    text-align: center;
+    position: relative;
+    margin-top: -330px;
+    color: aliceblue;
+}
+.row .rowleft .imgText h2{
+    
+    font-weight: 800px;
+    font-size: 75px;
+    font-family: "EksellDisplayWeb-Small";
+    letter-spacing: 3px;
+    text-align: center;
+    position: relative;
+    margin-top: -25px;
+    color: aliceblue;
+}
+.row .rowright{
+    margin-left: 713px;
+    height: 600px;
+    margin-top: -470px;
+}
+.row .rowright p{
+    text-align: left;
+    font-family: "merivaregular";
+    font-size: 24px;
+    line-height: 1.56;
+    box-align:50px;
+    padding-top: 250px;
+    margin-left: 50px;
+
+    padding-block-start: 5em;
+    padding-block-end: 50em;
+    padding-inline-start: 50px;
+    padding-inline-end: 40px;   
+}
+.row .rowright .socialmedia ul li{
+    margin-top: -2300px;
+    display: flex;
+}
+.lastimg img{
+    width: 100%;
+    height: 800px;
+}
+.footer{
+    height: 250px;
+    background-color: white;
+}
+.footer .first p{
+    font-size: 14px;
+    line-height: 1.4;
+    font-size: medium;
+    margin-left: 55px;
+    padding-top: 13px;
+    padding-left: 19px;
+    padding-right: 15px;
+}
+.footer .second p{
+    display: block;
+    font-size: 14px;
+    line-height: 1.8;
+    font-size: medium;
+    margin-left: 55px;
+    margin-top: -135px;
+    padding-left: 398px;
+    padding-right: 15px;
+}
+.footer .third p{
+    display: block;
+    font-size: 14px;
+    line-height: 1;
+    font-size: medium;
+    margin-left: 550px;
+    margin-top: -180px;
+    padding-left: 399px;
+    padding-right: 15px;
+}
+
