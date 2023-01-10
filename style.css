@@ -1,52 +1,362 @@
-button
-
-{
-    color: rgb(158, 206, 13);
-    font-style: italic;
-    font-size: medium;
-    background-color: brown;
-    border: 0.2px;
-    border-radius: 2px;
-
-}
-#title
-{
-    color: green;
-    font-size: x-large;
-    background-color:lightcoral;
-}
-.content
-{
-font-size: xx-large;
-color: rgb(29, 5, 146);
-background-color: coral;
-
-}
-.box outerbox
-{
-    margin-left: 10px;
-    margin-top: 50px;
-    background-color: aqua;
-    width: 500px;
-    height: 500px;
-
-
-}
-.white
-{
-    color: gold;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
     
 }
-.next
+
+main{
+    width: 100%;
+    background-color: aliceblue;
+}
+.navBar{
+    width: 1200px;
+    height: 75px;
+    margin: auto;
+}
+.icon
 {
-margin-left: 25px;
-margin-top: 30px;
-border: 2px;
-background-color: rgb(203, 67, 67);
-width: 250px;
-height: 350px;
+    width: 200px;
+    float: left;
+    height: 70px;
+}
+.logo
+{
+    margin-left: 10px;
+    padding-left: 20px;
+    margin-top: 25px;
+}
+option
+{
+    width: 200px;
+    float: right;
+}
+.flex-items
+{
+    margin-left: 155px;
+    margin-top: 40px;
+}
+ul li
+{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+ul li a
+{
+    list-style: none;
+    margin-left: 10px;
+    margin-top: 25px;
+    text-decoration: none;
+    color: #0196ec;
+    padding: 0 9px;
+    display: inline-block;
+    font-size: 11px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.options ul li ::after
+{
+    content:"/";
+    color: #8a8a8a;
+    margin-left: 6px ;
+}
+.header
+{
+    float: left;
+    position: relative;
+    width: 100%;
+    background: rgba(13,46,76,0.8);
+    z-index: 2;
+    padding: auto;
+    margin-left: 0%;
+    font-family: 'NotoSans';
+    font-size: 12px;
+    line-height: 2px;
+    display: flex;
+    top: 5px;   
+}
+.header .container ul li a:hover{
+    background-color: aliceblue;
+    color:rgba(13,46,76,0.8); ;
+    width: auto;
+    height: auto;
+}
+.list ul li nav 
+{
+margin-top: 9px;
+align-items: right;
+justify-content: center;
+display: flex;
+padding-left: 10px;
+margin-left: 10px;
+font-family: Arial, Helvetica, sans-serif;
+}
+.has-submenu a
+{
+    margin-top: 10px;
+    padding-top: 10px;
+    font: 1em sans-serif;
+    position: relative;
+    color: aliceblue;  
+     
+}
+.home-imag
+{
+    
+    width: 45px;
+    margin-left: 0%;
+    position: relative;
+    vertical-align: middle;
 
-background-size: auto;
-font-style: oblique;
+    
+    
+}
+.home-imag .img
+{
+    width: 10px;
+    margin: 10px;
+    margin-left: 0%;
+    
+}
 
+.block-images{
+    max-width: 1140px;
+    margin: auto;
+    margin-top: 50px;
+    padding-top: 10px;
+    
+}
+---------------------------
+.wrapper1 img
+{
+    width: 100%;
+    display: grid;
+
+}
+.wrapper1 p
+{
+    background-color: #53bed2;
+    size: 25px; 
+    width: 242px; 
+    height: 100px; 
+    color: white; 
+    text-align: center;
+    position: relative;
+    margin-top: auto;
+}
+.wrapper1 h3{
+    font-size: 15PX;
+    font-style: normal;
+    color: white;
+    background-color: #53bed2;
+    text-align: center;
+    width: 242px;
+    margin-top: -4px;
+    height: 40px;
+}
+.wrapper1
+{
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr 1fr;
+   grid-template-rows: 1fr 1fr;
+   grid-row: 50px;
+   grid-gap: 0px 20px;
+}
+.view a
+{
+    background-color: #53bed2;
+    width: 242px;
+    color: aliceblue;
+    display: block;
+    height: 22px;
+    font-size: 13px;
+    padding-left: 20px;
+
+}
+
+------------------------------
+.wrapper2 img
+{
+    width: 100%;
+    display: grid;
+
+}
+.wrapper2 p
+{
+    background-color: #53bed2;
+    size: 20px; 
+    width: 242px; 
+    height: 100px; 
+    color: white; 
+    text-align: center;
+    position: relative;
+}
+.wrapper2 h3{
+    font-size: 15PX;
+    font-style: normal;
+    color: white;
+    background-color: #53bed2;
+    text-align: center;
+    margin-top: -4px;
+    width: 242px;
+    height: 40px;
+}
+
+.wrapper2
+{
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr 1fr;
+   grid-template-rows: 1fr 1fr;
+   grid-row: 50px;
+   grid-gap: 0px 20px;
+   grid-column: auto;
+   margin-top: -40px;
+}
+
+-----------------------------
+
+.wrapper3 img
+{
+    width: 100%;
+    display: grid;
+
+}
+.wrapper3 p
+{
+    background-color: #53bed2;
+    size: 20px; 
+    width: 242px; 
+    height: 100px; 
+    color: white; 
+    text-align: center;
+    position: relative;
+}
+.wrapper3 h3{
+    font-size: 15PX;
+    font-style: normal;
+    color: white;
+    background-color: #53bed2;
+    text-align: center;
+    width: 242px;
+    height: 40px;
+    margin-top: -4%;
+}
+.wrapper3
+{
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr 1fr;
+   grid-template-rows: 1fr 1fr ;
+   grid-row: 50px;
+   grid-gap: 0px 20px;
+   margin-top: -35px;
+}
+-----------
+.wrapper4 img
+{
+    width: 100%;
+    display: grid;
+
+}
+.wrapper4 p
+{
+    background-color: #e1eba9;;
+    size: 20px; 
+    width: 242px; 
+    height: 95px; 
+    color:#80691a; 
+    text-align: center;
+    position: relative;
+}
+.wrapper4 h3{
+    font-size: 15PX;
+    font-style: normal;
+    color: #80691a;
+    background-color: #e1eba9;
+    text-align: center;
+    width: 242px;
+    height: 40px;
+    margin-top: -4%;
+}
+.wrapper4
+{
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr 1fr;
+   grid-template-rows: 1fr 1fr;
+   grid-row: 50px;
+   grid-gap: 0px 20px;
+   margin-top: -35px;
+   
+}
+.view1 a
+{
+    background-color: #e1eba9;
+    width: 242px;
+    color: #53bed2;
+    display: block;
+    height: 22px;
+    font-size: 13px;
+    padding-left: 20px;
+    
+
+}
+footer .footerDescription{
+    width: 100%;
+    float: left;
+    font-size: 12px;
+    color: black;
+    padding: 15px 0;
+    background: #eae6e6;
+    margin-top: -1pxpx;
+    
+}
+.footer .footerDescription{
+    width: auto;
+    height: 100px;
+    background-color: aqua;
+}
+footer .footerBand{
+    
+    background: url(https://www.bluestarindia.com/img/footer-band.png) no-repeat left;
+    
+    margin-top: 60px;
+    background-size: contain;
+    
+}
+footer .footerMain{
+    padding: 0 0;
+}
+footer .footerMain .footerRight{
+    width: 100%5%;
+    float: left;
+    margin-left: 131px;
+    margin-top: -30px;
+    line-height: 15px;
+}
+.sociallist{
+    margin-bottom: 150px;
+}
+.terms
+{
+margin-bottom: 50px;
+width: 96%;
+}
+
+footer
+{
+    height: 80px;
+}
+.btn{
+    position: fixed;
+    margin-bottom: 10px;
+    top: 650px;
+    right: 0;
+    background-color:rgba(13, 46, 76, 0.8);
+    width: 150px;
+    height: 45px;
+    color: aliceblue;
+    z-index: 5;
+    font-family:Verdana, Geneva, Tahoma, sans-serif ;
+    font-size: 18px;
 }
